@@ -42,3 +42,5 @@ jobs:
         run: python --version
       - name: docker version
         run: docker --version
+      - name: terraform version
+        run: terraform --version
